@@ -1,0 +1,504 @@
+Order_ID,Order_Date,Distance_km,Vehicle_Type,Order_Quantity,Traffic_Level,Weather,Delivery_Time_min,Delivery_Status,Delivery_Cost
+ORD0001,2026-01-01,18.9,Bike,7,Medium,Clear,66.0,On Time,112.06
+ORD0002,2026-01-01,17.6,Truck,3,Medium,Clear,73.0,Delayed,161.82
+ORD0003,2026-01-01,2.4,Van,7,Medium,Rainy,57.0,Delayed,68.24
+ORD0004,2026-01-01,12.9,Van,8,High,Cloudy,85.0,Delayed,126.81
+ORD0005,2026-01-01,14.2,Bike,10,Medium,Cloudy,62.0,On Time,88.79
+ORD0006,2026-01-01,14.9,Bike,6,Low,Cloudy,66.0,Delayed,77.71
+ORD0007,2026-01-02,20.9,Bike,10,High,Cloudy,99.0,Delayed,111.91
+ORD0008,2026-01-02,19.4,Van,9,High,Cloudy,96.0,Delayed,141.12
+ORD0009,2026-01-02,,Van,6,High,Clear,105.0,Delayed,137.12
+ORD0010,2026-01-02,27.1,Van,9,Medium,Clear,91.0,On Time,175.13
+ORD0011,2026-01-02,28.7,Bike,4,Medium,Clear,78.0,On Time,132.53
+ORD0012,2026-01-02,25.6,Truck,8,Medium,Rainy,123.0,Delayed,210.28
+ORD0013,2026-01-03,33.5,Van,4,High,Rainy,147.0,Delayed,189.53
+ORD0014,2026-01-03,2.1,Bike,2,High,Clear,40.0,On Time,39.1
+ORD0015,2026-01-03,8.1,Bike,10,Low,Cloudy,48.0,On Time,75.42
+ORD0016,2026-01-03,1.8,Bike,9,Low,Rainy,34.0,On Time,54.37
+ORD0017,2026-01-03,23.2,Bike,5,Medium,Clear,79.0,On Time,112.92
+ORD0018,2026-01-04,31.6,Bike,4,High,Cloudy,111.0,Delayed,131.24
+ORD0019,2026-01-04,9.7,Bike,2,High,Rainy,73.0,Delayed,70.03
+ORD0020,2026-01-04,32.6,Bike,1,Low,Clear,86.0,On Time,139.31
+ORD0021,2026-01-04,3.5,Van,7,Medium,Cloudy,43.0,On Time,83.64
+ORD0022,2026-01-04,32.8,Bike,6,Medium,Clear,98.0,On Time,151.04
+ORD0023,2026-01-04,13.3,Bike,2,High,Rainy,69.0,Delayed,63.11
+ORD0024,2026-01-05,4.9,Bike,8,High,Rainy,69.0,Delayed,66.24
+ORD0025,2026-01-05,17.8,Bike,4,High,Rainy,93.0,Delayed,95.89
+ORD0026,2026-01-05,10.1,Van,8,Medium,Clear,63.0,Delayed,96.18
+ORD0027,2026-01-05,11.0,Bike,7,Medium,Rainy,71.0,Delayed,76.41
+ORD0028,2026-01-05,11.8,Bike,5,Low,Cloudy,56.0,Delayed,76.92
+ORD0029,2026-01-05,28.4,Van,10,Low,Clear,82.0,On Time,193.59
+ORD0030,2026-01-06,19.6,Bike,10,High,Cloudy,87.0,On Time,117.07
+ORD0031,2026-01-06,11.9,Van,8,High,Clear,82.0,Delayed,107.41
+ORD0032,2026-01-06,21.9,Bike,9,High,Cloudy,86.0,On Time,127.75
+ORD0033,2026-01-06,,Bike,5,High,Clear,99.0,Delayed,119.36
+ORD0034,2026-01-06,,Truck,10,Medium,Clear,63.0,Delayed,146.46
+ORD0035,2026-01-07,15.4,Truck,5,High,Clear,99.0,Delayed,157.54
+ORD0036,2026-01-07,5.6,Van,2,High,Cloudy,64.0,Delayed,62.66
+ORD0037,2026-01-07,7.6,Bike,5,High,Clear,58.0,Delayed,61.16
+ORD0038,2026-01-07,24.3,Bike,3,Low,Cloudy,82.0,Delayed,113.24
+ORD0039,2026-01-07,7.6,Van,7,Medium,Clear,47.0,On Time,90.59
+ORD0040,2026-01-07,19.1,Bike,10,Low,Clear,61.0,On Time,113.64
+ORD0041,2026-01-08,25.3,Bike,5,High,Clear,89.0,On Time,113.27
+ORD0042,2026-01-08,5.1,Bike,8,Medium,Cloudy,43.0,On Time,60.47
+ORD0043,2026-01-08,20.5,Bike,1,Low,Clear,58.0,On Time,95.0
+ORD0044,2026-01-08,10.1,Truck,3,Medium,Cloudy,68.0,Delayed,129.14
+ORD0045,2026-01-08,33.8,Bike,3,Medium,Rainy,120.0,Delayed,131.03
+ORD0046,2026-01-09,17.7,Van,9,Medium,Cloudy,71.0,On Time,135.67
+ORD0047,2026-01-09,28.5,Bike,5,Low,Clear,79.0,On Time,138.76
+ORD0048,2026-01-09,19.9,Bike,9,Medium,Clear,70.0,On Time,108.23
+ORD0049,2026-01-09,3.0,Bike,9,Medium,Rainy,54.0,Delayed,57.19
+ORD0050,2026-01-09,22.7,Bike,1,High,Clear,103.0,Delayed,99.62
+ORD0051,2026-01-09,33.4,Truck,2,Medium,Rainy,125.0,Delayed,251.41
+ORD0052,2026-01-10,21.7,Van,5,High,Clear,102.0,Delayed,152.04
+ORD0053,2026-01-10,28.9,Truck,4,Medium,Rainy,129.0,Delayed,229.35
+ORD0054,2026-01-10,31.1,Van,10,Medium,Cloudy,122.0,Delayed,188.56
+ORD0055,2026-01-10,9.1,Van,9,High,Rainy,85.0,Delayed,106.06
+ORD0056,2026-01-10,8.6,Truck,7,Medium,Clear,53.0,On Time,133.91
+ORD0057,2026-01-10,22.0,Bike,6,Low,Cloudy,72.0,On Time,106.21
+ORD0058,2026-01-11,15.3,Bike,7,Low,Clear,51.0,On Time,86.24
+ORD0059,2026-01-11,29.6,Bike,1,High,Clear,90.0,On Time,132.45
+ORD0060,2026-01-11,31.7,Bike,1,Medium,Cloudy,98.0,Delayed,127.14
+ORD0061,2026-01-11,13.3,Bike,8,Medium,Rainy,78.0,Delayed,97.25
+ORD0062,2026-01-11,9.4,Bike,2,Low,Rainy,,Delayed,66.06
+ORD0063,2026-01-12,27.6,Van,10,Low,Cloudy,94.0,Delayed,182.85
+ORD0064,2026-01-12,10.7,Bike,9,Low,Clear,50.0,On Time,84.46
+ORD0065,2026-01-12,29.1,Bike,7,Medium,Clear,90.0,On Time,127.22
+ORD0066,2026-01-12,15.7,Bike,6,Medium,Cloudy,75.0,Delayed,91.48
+ORD0067,2026-01-12,23.9,Bike,1,Medium,Clear,74.0,On Time,112.48
+ORD0068,2026-01-12,4.7,Van,1,Medium,Clear,31.0,On Time,70.39
+ORD0069,2026-01-13,22.4,Bike,2,High,Clear,87.0,Delayed,102.61
+ORD0070,2026-01-13,16.6,Truck,6,Medium,Clear,81.0,Delayed,178.27
+ORD0071,2026-01-13,21.2,Van,6,Medium,Clear,84.0,Delayed,143.69
+ORD0072,2026-01-13,7.1,Bike,2,High,Clear,61.0,Delayed,49.0
+ORD0073,2026-01-13,26.2,Bike,1,Medium,Clear,70.0,On Time,112.26
+ORD0074,2026-01-14,30.4,Van,10,Medium,Clear,101.0,On Time,196.2
+ORD0075,2026-01-14,8.8,Van,5,High,Rainy,86.0,Delayed,82.39
+ORD0076,2026-01-14,4.7,Van,5,High,Clear,54.0,Delayed,78.01
+ORD0077,2026-01-14,2.3,Van,2,Low,Clear,27.0,On Time,64.06
+ORD0078,2026-01-14,23.0,Bike,6,High,Cloudy,82.0,On Time,111.98
+ORD0079,2026-01-14,21.8,Bike,9,Medium,Clear,100.0,Delayed,123.9
+ORD0080,2026-01-15,19.8,Bike,2,Low,Rainy,69.0,Delayed,97.21
+ORD0081,2026-01-15,9.3,Van,10,Medium,Cloudy,75.0,Delayed,120.05
+ORD0082,2026-01-15,14.6,Van,2,High,Clear,74.0,Delayed,103.9
+ORD0083,2026-01-15,21.4,Bike,3,Medium,Clear,75.0,On Time,105.96
+ORD0084,2026-01-15,18.1,Bike,7,Medium,Rainy,95.0,Delayed,94.32
+ORD0085,2026-01-15,34.6,Bike,6,Medium,Rainy,127.0,Delayed,141.03
+ORD0086,2026-01-16,6.1,Bike,8,Low,Clear,35.0,On Time,52.31
+ORD0087,2026-01-16,24.8,Van,8,Low,Cloudy,87.0,Delayed,167.43
+ORD0088,2026-01-16,15.0,Van,6,Low,Clear,66.0,Delayed,121.11
+ORD0089,2026-01-16,15.8,Van,10,Low,Rainy,96.0,Delayed,130.33
+ORD0090,2026-01-16,25.5,Bike,3,Low,Clear,72.0,On Time,103.46
+ORD0091,2026-01-17,24.7,Bike,3,Low,Rainy,97.0,Delayed,107.4
+ORD0092,2026-01-17,34.7,Van,1,Medium,Cloudy,107.0,Delayed,186.32
+ORD0093,2026-01-17,5.8,Van,7,Low,Cloudy,52.0,Delayed,90.46
+ORD0094,2026-01-17,5.0,Van,5,Medium,Clear,53.0,Delayed,77.4
+ORD0095,2026-01-17,25.8,Van,4,High,Clear,100.0,Delayed,159.71
+ORD0096,2026-01-17,20.9,Bike,10,Medium,Clear,76.0,On Time,114.62
+ORD0097,2026-01-18,10.7,Bike,4,Medium,Clear,59.0,Delayed,79.74
+ORD0098,2026-01-18,4.2,Bike,4,Low,Clear,23.0,On Time,42.33
+ORD0099,2026-01-18,4.4,Bike,6,Low,Cloudy,29.0,On Time,49.88
+ORD0100,2026-01-18,31.5,Bike,8,Low,Clear,,On Time,142.85
+ORD0101,2026-01-18,7.9,Bike,8,Low,Clear,36.0,On Time,73.54
+ORD0102,2026-01-19,12.3,Van,5,Low,Rainy,71.0,Delayed,100.47
+ORD0103,2026-01-19,9.1,Bike,6,Low,Rainy,58.0,Delayed,69.93
+ORD0104,2026-01-19,13.4,Bike,4,Low,Rainy,65.0,Delayed,78.87
+ORD0105,2026-01-19,3.8,Truck,9,Low,Rainy,62.0,Delayed,107.33
+ORD0106,2026-01-19,18.9,Bike,8,Medium,Clear,70.0,On Time,107.46
+ORD0107,2026-01-19,3.8,Bike,10,Low,Clear,39.0,On Time,56.11
+ORD0108,2026-01-20,28.3,Van,10,Medium,Cloudy,116.0,Delayed,176.5
+ORD0109,2026-01-20,9.3,Bike,1,Medium,Cloudy,52.0,Delayed,57.86
+ORD0110,2026-01-20,19.6,Bike,2,Medium,Clear,70.0,On Time,82.76
+ORD0111,2026-01-20,31.0,Bike,9,Low,Cloudy,91.0,On Time,133.83
+ORD0112,2026-01-20,23.3,Bike,8,High,Clear,99.0,Delayed,122.76
+ORD0113,2026-01-20,19.4,Truck,3,Medium,Clear,74.0,Delayed,180.79
+ORD0114,2026-01-21,12.4,Van,8,Low,Clear,56.0,On Time,111.8
+ORD0115,2026-01-21,12.7,Van,1,High,Cloudy,64.0,Delayed,94.29
+ORD0116,2026-01-21,23.9,Van,10,High,Cloudy,101.0,Delayed,171.63
+ORD0117,2026-01-21,34.8,Van,4,Low,Clear,97.0,On Time,187.33
+ORD0118,2026-01-21,23.7,Bike,3,Low,Rainy,77.0,Delayed,100.16
+ORD0119,2026-01-22,20.2,Van,6,High,Clear,95.0,Delayed,145.05
+ORD0120,2026-01-22,26.0,Bike,7,Medium,Clear,87.0,On Time,125.75
+ORD0121,2026-01-22,17.1,Van,4,Low,Rainy,75.0,Delayed,129.79
+ORD0122,2026-01-22,3.5,Van,7,Low,Rainy,54.0,Delayed,63.66
+ORD0123,2026-01-22,20.3,Bike,9,Medium,Rainy,89.0,Delayed,104.06
+ORD0124,2026-01-22,33.6,Bike,2,Medium,Cloudy,101.0,Delayed,137.61
+ORD0125,2026-01-23,7.4,Bike,3,Medium,Cloudy,57.0,Delayed,58.69
+ORD0126,2026-01-23,24.6,Bike,5,Medium,Cloudy,87.0,Delayed,121.3
+ORD0127,2026-01-23,8.2,Van,3,Medium,Clear,49.0,On Time,86.35
+ORD0128,2026-01-23,19.5,Van,8,Medium,Clear,82.0,Delayed,143.99
+ORD0129,2026-01-23,4.7,Bike,10,Low,Clear,35.0,On Time,62.7
+ORD0130,2026-01-24,16.6,Bike,8,Low,Clear,54.0,On Time,107.67
+ORD0131,2026-01-24,26.8,Bike,8,Medium,Cloudy,89.0,On Time,124.14
+ORD0132,2026-01-24,13.1,Bike,9,High,Clear,71.0,On Time,91.57
+ORD0133,2026-01-24,23.8,Bike,4,Medium,Clear,85.0,Delayed,105.23
+ORD0134,2026-01-24,28.1,Bike,5,Medium,Clear,85.0,On Time,130.63
+ORD0135,2026-01-24,32.6,Truck,5,Low,Cloudy,105.0,Delayed,239.28
+ORD0136,2026-01-25,9.4,Bike,8,Medium,Clear,58.0,Delayed,79.54
+ORD0137,2026-01-25,14.9,Bike,7,Medium,Rainy,76.0,Delayed,90.85
+ORD0138,2026-01-25,6.6,Van,9,Low,Clear,49.0,On Time,104.37
+ORD0139,2026-01-25,34.7,Bike,8,Low,Clear,87.0,On Time,154.35
+ORD0140,2026-01-25,32.6,Truck,2,Medium,Cloudy,111.0,Delayed,240.55
+ORD0141,2026-01-25,19.6,Truck,10,Low,Cloudy,86.0,Delayed,188.32
+ORD0142,2026-01-26,29.7,Bike,4,Medium,Clear,92.0,On Time,128.31
+ORD0143,2026-01-26,19.0,Bike,6,Low,Cloudy,55.0,On Time,101.43
+ORD0144,2026-01-26,22.4,Bike,2,Medium,Cloudy,86.0,Delayed,92.52
+ORD0145,2026-01-26,4.5,Bike,7,Low,Clear,25.0,On Time,48.39
+ORD0146,2026-01-26,26.8,Bike,3,High,Rainy,114.0,Delayed,121.86
+ORD0147,2026-01-27,5.8,Van,3,Medium,Cloudy,50.0,Delayed,74.82
+ORD0148,2026-01-27,29.2,Bike,2,Medium,Cloudy,100.0,Delayed,119.88
+ORD0149,2026-01-27,27.7,Bike,8,High,Rainy,136.0,Delayed,129.22
+ORD0150,2026-01-27,25.2,Bike,6,Medium,Rainy,90.0,Delayed,116.45
+ORD0151,2026-01-27,2.7,Truck,1,Low,Cloudy,32.0,Delayed,86.68
+ORD0152,2026-01-27,11.7,Bike,1,Medium,Cloudy,55.0,Delayed,67.61
+ORD0153,2026-01-28,10.3,Bike,7,Medium,Cloudy,51.0,On Time,62.91
+ORD0154,2026-01-28,13.6,Bike,8,Medium,Cloudy,73.0,Delayed,97.0
+ORD0155,2026-01-28,4.4,Truck,5,Medium,Cloudy,61.0,Delayed,112.55
+ORD0156,2026-01-28,32.9,Bike,5,Low,Cloudy,99.0,Delayed,128.8
+ORD0157,2026-01-28,20.1,Van,4,Low,Clear,68.0,On Time,141.92
+ORD0158,2026-01-29,11.7,Van,6,Medium,Rainy,85.0,Delayed,113.13
+ORD0159,2026-01-29,14.8,Bike,6,Medium,Rainy,68.0,Delayed,87.36
+ORD0160,2026-01-29,16.5,Van,3,Medium,Clear,68.0,Delayed,110.72
+ORD0161,2026-01-29,21.6,Bike,9,Medium,Cloudy,81.0,On Time,122.71
+ORD0162,2026-01-29,18.8,Van,7,High,Clear,98.0,Delayed,136.25
+ORD0163,2026-01-29,32.3,Van,1,Medium,Clear,86.0,On Time,179.99
+ORD0164,2026-01-30,18.1,Bike,7,Low,Cloudy,66.0,On Time,113.74
+ORD0165,2026-01-30,34.7,Bike,5,Low,Clear,96.0,On Time,150.05
+ORD0166,2026-01-30,30.0,Van,5,Low,Cloudy,88.0,On Time,172.0
+ORD0167,2026-01-30,8.5,Bike,2,Low,Cloudy,34.0,On Time,55.19
+ORD0168,2026-01-30,32.7,Bike,4,Low,Clear,88.0,On Time,134.9
+ORD0169,2026-01-30,5.4,Bike,6,Low,Clear,39.0,On Time,59.88
+ORD0170,2026-01-31,28.9,Van,10,Low,Clear,87.0,On Time,180.76
+ORD0171,2026-01-31,14.3,Van,7,Low,Cloudy,58.0,On Time,116.86
+ORD0172,2026-01-31,30.9,Bike,5,High,Rainy,,Delayed,128.67
+ORD0173,2026-01-31,30.6,Bike,9,Low,Cloudy,93.0,On Time,144.63
+ORD0174,2026-01-31,28.5,Bike,3,Medium,Clear,82.0,On Time,124.76
+ORD0175,2026-02-01,28.0,Van,1,Medium,Cloudy,100.0,Delayed,143.39
+ORD0176,2026-02-01,11.7,Bike,4,High,Clear,63.0,On Time,74.0
+ORD0177,2026-02-01,4.2,Van,9,Low,Cloudy,52.0,Delayed,84.03
+ORD0178,2026-02-01,,Bike,4,Medium,Clear,55.0,On Time,78.41
+ORD0179,2026-02-01,7.3,Truck,2,High,Cloudy,70.0,Delayed,123.67
+ORD0180,2026-02-01,24.8,Bike,10,High,Clear,110.0,Delayed,135.11
+ORD0181,2026-02-02,13.1,Bike,5,High,Rainy,84.0,Delayed,72.84
+ORD0182,2026-02-02,34.2,Bike,3,Low,Clear,95.0,On Time,146.97
+ORD0183,2026-02-02,23.0,Truck,9,Low,Cloudy,91.0,Delayed,214.97
+ORD0184,2026-02-02,29.1,Van,4,Medium,Rainy,124.0,Delayed,172.19
+ORD0185,2026-02-02,5.9,Bike,6,High,Clear,68.0,Delayed,61.05
+ORD0186,2026-02-02,30.4,Van,2,Medium,Rainy,101.0,Delayed,173.63
+ORD0187,2026-02-03,32.4,Van,6,Medium,Cloudy,115.0,Delayed,177.09
+ORD0188,2026-02-03,17.8,Van,3,Low,Clear,55.0,On Time,122.58
+ORD0189,2026-02-03,21.8,Bike,9,High,Clear,97.0,Delayed,115.83
+ORD0190,2026-02-03,27.1,Bike,2,Low,Cloudy,79.0,On Time,125.3
+ORD0191,2026-02-03,7.4,Bike,9,Medium,Clear,43.0,On Time,73.18
+ORD0192,2026-02-04,18.3,Van,5,Medium,Cloudy,87.0,Delayed,128.91
+ORD0193,2026-02-04,14.9,Truck,8,Medium,Clear,79.0,Delayed,163.96
+ORD0194,2026-02-04,6.4,Van,2,Low,Cloudy,38.0,On Time,81.74
+ORD0195,2026-02-04,13.8,Bike,6,Low,Clear,47.0,On Time,83.05
+ORD0196,2026-02-04,3.8,Bike,3,Medium,Rainy,49.0,Delayed,40.47
+ORD0197,2026-02-04,2.4,Van,10,Low,Rainy,54.0,Delayed,77.95
+ORD0198,2026-02-05,6.0,Van,5,Medium,Rainy,61.0,Delayed,87.14
+ORD0199,2026-02-05,33.8,Van,8,Low,Cloudy,87.0,On Time,203.18
+ORD0200,2026-02-05,19.9,Van,10,Medium,Clear,85.0,Delayed,149.87
+ORD0201,2026-02-05,33.9,Van,1,Medium,Cloudy,97.0,On Time,184.25
+ORD0202,2026-02-05,16.0,Bike,5,Low,Clear,52.0,On Time,85.34
+ORD0203,2026-02-06,11.9,Bike,3,Medium,Clear,,On Time,69.42
+ORD0204,2026-02-06,18.5,Van,4,Low,Clear,53.0,On Time,125.02
+ORD0205,2026-02-06,16.2,Van,2,Low,Clear,64.0,Delayed,113.03
+ORD0206,2026-02-06,5.0,Bike,9,High,Cloudy,62.0,Delayed,71.58
+ORD0207,2026-02-06,23.0,Bike,3,Medium,Cloudy,78.0,On Time,99.63
+ORD0208,2026-02-06,8.7,Van,2,High,Clear,67.0,Delayed,80.67
+ORD0209,2026-02-07,22.3,Bike,10,Low,Clear,71.0,On Time,113.83
+ORD0210,2026-02-07,23.3,Bike,9,Medium,Rainy,113.0,Delayed,113.23
+ORD0211,2026-02-07,6.6,Bike,7,High,Clear,58.0,Delayed,62.5
+ORD0212,2026-02-07,3.6,Van,6,Medium,Clear,47.0,Delayed,70.69
+ORD0213,2026-02-07,27.7,Van,1,Medium,Clear,96.0,Delayed,168.87
+ORD0214,2026-02-07,16.9,Bike,5,Medium,Cloudy,82.0,Delayed,89.88
+ORD0215,2026-02-08,3.4,Van,3,Medium,Cloudy,39.0,On Time,73.84
+ORD0216,2026-02-08,34.8,Bike,1,High,Clear,109.0,Delayed,144.67
+ORD0217,2026-02-08,3.4,Bike,4,High,Clear,58.0,Delayed,44.63
+ORD0218,2026-02-08,24.8,Van,2,High,Cloudy,109.0,Delayed,161.86
+ORD0219,2026-02-08,34.5,Van,2,Low,Cloudy,108.0,Delayed,189.61
+ORD0220,2026-02-09,9.5,Van,3,Medium,Clear,43.0,On Time,99.58
+ORD0221,2026-02-09,6.3,Van,8,High,Rainy,92.0,Delayed,98.58
+ORD0222,2026-02-09,5.6,Van,8,Low,Clear,36.0,On Time,89.89
+ORD0223,2026-02-09,11.7,Bike,7,Low,Clear,48.0,On Time,84.45
+ORD0224,2026-02-09,4.9,Bike,6,Medium,Rainy,54.0,Delayed,59.42
+ORD0225,2026-02-09,24.7,Bike,9,Medium,Clear,82.0,On Time,119.67
+ORD0226,2026-02-10,3.6,Bike,4,High,Cloudy,44.0,On Time,46.86
+ORD0227,2026-02-10,18.6,Truck,1,Low,Clear,53.0,On Time,171.95
+ORD0228,2026-02-10,34.9,Bike,8,High,Clear,123.0,Delayed,165.84
+ORD0229,2026-02-10,28.8,Van,7,Low,Rainy,93.0,Delayed,173.38
+ORD0230,2026-02-10,22.1,Van,7,Low,Clear,67.0,On Time,154.07
+ORD0231,2026-02-11,11.8,Van,3,Low,Rainy,60.0,Delayed,100.61
+ORD0232,2026-02-11,22.4,Bike,4,High,Clear,71.0,On Time,105.97
+ORD0233,2026-02-11,19.2,Van,10,Medium,Clear,89.0,Delayed,148.94
+ORD0234,2026-02-11,15.8,Bike,9,Medium,Clear,52.0,On Time,99.37
+ORD0235,2026-02-11,5.9,Bike,6,Medium,Cloudy,48.0,On Time,62.13
+ORD0236,2026-02-11,31.2,Van,5,High,Clear,116.0,Delayed,190.95
+ORD0237,2026-02-12,16.6,Bike,3,Medium,Rainy,80.0,Delayed,90.32
+ORD0238,2026-02-12,8.0,Bike,9,High,Clear,66.0,Delayed,74.96
+ORD0239,2026-02-12,13.8,Van,5,Medium,Rainy,93.0,Delayed,123.89
+ORD0240,2026-02-12,15.4,Bike,5,Medium,Clear,64.0,On Time,93.44
+ORD0241,2026-02-12,29.2,Truck,4,Medium,Rainy,124.0,Delayed,225.45
+ORD0242,2026-02-12,26.1,Truck,4,Medium,Cloudy,96.0,Delayed,203.2
+ORD0243,2026-02-13,27.3,Truck,1,Medium,Cloudy,100.0,Delayed,203.07
+ORD0244,2026-02-13,1.9,Bike,7,Medium,Cloudy,52.0,Delayed,54.18
+ORD0245,2026-02-13,15.4,Bike,9,Low,Cloudy,61.0,On Time,93.0
+ORD0246,2026-02-13,17.6,Truck,3,High,Cloudy,96.0,Delayed,159.45
+ORD0247,2026-02-13,2.1,Bike,2,Medium,Clear,36.0,On Time,32.17
+ORD0248,2026-02-14,10.2,Truck,3,Medium,Clear,55.0,Delayed,124.38
+ORD0249,2026-02-14,27.0,Truck,1,High,Rainy,106.0,Delayed,212.6
+ORD0250,2026-02-14,6.1,Van,6,Medium,Cloudy,56.0,Delayed,83.46
+ORD0251,2026-02-14,19.4,Bike,7,Low,Cloudy,75.0,Delayed,96.35
+ORD0252,2026-02-14,8.7,Bike,2,High,Clear,48.0,On Time,58.03
+ORD0253,2026-02-14,1.9,Van,8,Medium,Clear,48.0,Delayed,73.93
+ORD0254,2026-02-15,9.6,Bike,6,Medium,Clear,56.0,Delayed,67.84
+ORD0255,2026-02-15,34.2,Bike,4,Low,Cloudy,,On Time,151.38
+ORD0256,2026-02-15,28.4,Van,5,High,Clear,104.0,Delayed,168.57
+ORD0257,2026-02-15,33.6,Truck,8,Medium,Clear,115.0,Delayed,264.65
+ORD0258,2026-02-15,17.8,Van,3,Medium,Clear,69.0,Delayed,127.28
+ORD0259,2026-02-16,5.2,Van,3,High,Clear,52.0,Delayed,78.86
+ORD0260,2026-02-16,19.9,Bike,4,High,Cloudy,84.0,Delayed,92.09
+ORD0261,2026-02-16,16.7,Van,1,Low,Clear,67.0,Delayed,114.89
+ORD0262,2026-02-16,29.8,Truck,9,Medium,Cloudy,115.0,Delayed,241.18
+ORD0263,2026-02-16,4.8,Bike,8,Low,Clear,29.0,On Time,51.83
+ORD0264,2026-02-16,17.9,Bike,8,Medium,Clear,71.0,On Time,108.91
+ORD0265,2026-02-17,6.5,Van,10,Low,Clear,50.0,On Time,91.1
+ORD0266,2026-02-17,12.4,Van,6,Medium,Clear,63.0,Delayed,105.94
+ORD0267,2026-02-17,26.2,Van,7,High,Clear,107.0,Delayed,161.22
+ORD0268,2026-02-17,17.4,Van,6,High,Clear,83.0,Delayed,133.81
+ORD0269,2026-02-17,14.1,Bike,9,Medium,Cloudy,65.0,On Time,83.46
+ORD0270,2026-02-17,14.7,Bike,3,High,Clear,68.0,On Time,83.25
+ORD0271,2026-02-18,16.9,Van,3,Low,Cloudy,66.0,Delayed,126.37
+ORD0272,2026-02-18,27.8,Van,3,High,Rainy,113.0,Delayed,166.92
+ORD0273,2026-02-18,31.4,Van,10,Low,Cloudy,107.0,Delayed,199.88
+ORD0274,2026-02-18,33.5,Truck,3,Medium,Clear,120.0,Delayed,249.56
+ORD0275,2026-02-18,27.9,Bike,9,High,Clear,111.0,Delayed,131.08
+ORD0276,2026-02-19,12.1,Bike,4,Low,Clear,41.0,On Time,82.33
+ORD0277,2026-02-19,24.6,Van,7,Low,Clear,72.0,On Time,158.14
+ORD0278,2026-02-19,16.2,Van,9,Medium,Rainy,100.0,Delayed,131.9
+ORD0279,2026-02-19,10.0,Van,7,Medium,Clear,51.0,On Time,100.5
+ORD0280,2026-02-19,29.7,Van,9,Medium,Clear,110.0,Delayed,189.25
+ORD0281,2026-02-19,2.8,Van,3,Medium,Cloudy,48.0,Delayed,60.47
+ORD0282,2026-02-20,31.7,Bike,4,Medium,Cloudy,99.0,Delayed,136.84
+ORD0283,2026-02-20,17.0,Bike,8,Low,Cloudy,63.0,On Time,91.99
+ORD0284,2026-02-20,22.8,Bike,6,Medium,Clear,67.0,On Time,119.95
+ORD0285,2026-02-20,23.6,Van,5,Low,Clear,78.0,On Time,155.92
+ORD0286,2026-02-20,31.5,Bike,4,High,Clear,114.0,Delayed,134.05
+ORD0287,2026-02-21,22.8,Bike,8,Medium,Clear,75.0,On Time,115.15
+ORD0288,2026-02-21,22.1,Bike,1,Medium,Clear,70.0,On Time,102.09
+ORD0289,2026-02-21,3.7,Bike,9,Medium,Clear,43.0,On Time,55.1
+ORD0290,2026-02-21,18.9,Van,1,High,Clear,88.0,Delayed,123.85
+ORD0291,2026-02-21,,Bike,8,Low,Clear,37.0,On Time,72.77
+ORD0292,2026-02-21,26.2,Bike,4,Medium,Clear,73.0,On Time,113.97
+ORD0293,2026-02-22,18.7,Van,9,Medium,Cloudy,82.0,Delayed,144.51
+ORD0294,2026-02-22,24.3,Bike,5,Medium,Cloudy,88.0,Delayed,117.15
+ORD0295,2026-02-22,2.9,Bike,3,Low,Cloudy,33.0,On Time,41.2
+ORD0296,2026-02-22,4.3,Bike,9,High,Clear,54.0,On Time,58.24
+ORD0297,2026-02-22,25.5,Van,9,High,Clear,125.0,Delayed,176.79
+ORD0298,2026-02-22,3.9,Bike,4,Medium,Clear,23.0,On Time,43.89
+ORD0299,2026-02-23,3.9,Van,4,Medium,Cloudy,43.0,Delayed,59.73
+ORD0300,2026-02-23,1.9,Bike,8,High,Cloudy,56.0,Delayed,54.92
+ORD0301,2026-02-23,33.5,Bike,2,Medium,Clear,95.0,On Time,129.99
+ORD0302,2026-02-23,26.2,Bike,9,Low,Rainy,86.0,On Time,135.49
+ORD0303,2026-02-23,13.3,Bike,6,Medium,Clear,62.0,On Time,90.57
+ORD0304,2026-02-24,11.4,Van,9,Medium,Clear,68.0,Delayed,116.88
+ORD0305,2026-02-24,13.2,Van,8,Medium,Cloudy,73.0,Delayed,124.23
+ORD0306,2026-02-24,27.5,Truck,7,Medium,Rainy,119.0,Delayed,237.12
+ORD0307,2026-02-24,23.7,Bike,1,High,Cloudy,90.0,Delayed,109.14
+ORD0308,2026-02-24,7.7,Bike,3,High,Cloudy,50.0,On Time,59.12
+ORD0309,2026-02-24,7.3,Van,2,Medium,Clear,41.0,On Time,89.0
+ORD0310,2026-02-25,4.8,Bike,5,Low,Cloudy,35.0,On Time,63.39
+ORD0311,2026-02-25,23.6,Bike,5,High,Clear,95.0,Delayed,123.63
+ORD0312,2026-02-25,27.1,Bike,5,High,Rainy,116.0,Delayed,121.27
+ORD0313,2026-02-25,10.4,Bike,4,Low,Clear,44.0,On Time,60.16
+ORD0314,2026-02-25,2.2,Truck,5,High,Cloudy,61.0,Delayed,90.18
+ORD0315,2026-02-26,4.3,Van,3,High,Clear,56.0,Delayed,73.92
+ORD0316,2026-02-26,33.9,Van,1,Medium,Cloudy,111.0,Delayed,184.05
+ORD0317,2026-02-26,11.4,Bike,5,Medium,Clear,53.0,On Time,72.74
+ORD0318,2026-02-26,27.3,Bike,9,Medium,Cloudy,90.0,On Time,138.22
+ORD0319,2026-02-26,22.4,Bike,9,Low,Clear,66.0,On Time,110.36
+ORD0320,2026-02-26,14.3,Bike,4,Medium,Clear,64.0,Delayed,81.61
+ORD0321,2026-02-27,8.4,Bike,3,High,Clear,68.0,Delayed,66.09
+ORD0322,2026-02-27,5.6,Van,1,Low,Clear,40.0,Delayed,73.2
+ORD0323,2026-02-27,22.1,Van,2,Medium,Rainy,94.0,Delayed,142.55
+ORD0324,2026-02-27,27.5,Bike,8,Medium,Clear,84.0,On Time,142.58
+ORD0325,2026-02-27,23.1,Truck,1,Medium,Rainy,99.0,Delayed,187.6
+ORD0326,2026-02-27,19.3,Van,8,High,Clear,106.0,Delayed,138.28
+ORD0327,2026-02-28,2.9,Van,7,Medium,Clear,48.0,Delayed,81.24
+ORD0328,2026-02-28,33.9,Van,8,Medium,Cloudy,116.0,Delayed,207.63
+ORD0329,2026-02-28,28.3,Bike,6,Medium,Cloudy,101.0,Delayed,133.91
+ORD0330,2026-02-28,11.3,Bike,9,Medium,Clear,50.0,On Time,82.7
+ORD0331,2026-02-28,34.3,Bike,3,Low,Cloudy,90.0,On Time,142.27
+ORD0332,2026-03-01,21.7,Van,10,Medium,Cloudy,86.0,Delayed,149.14
+ORD0333,2026-03-01,21.0,Bike,4,Low,Clear,66.0,On Time,108.88
+ORD0334,2026-03-01,26.6,Bike,6,Low,Rainy,97.0,Delayed,131.59
+ORD0335,2026-03-01,28.7,Bike,8,Medium,Rainy,108.0,Delayed,128.97
+ORD0336,2026-03-01,23.5,Bike,5,Medium,Cloudy,78.0,On Time,117.91
+ORD0337,2026-03-01,5.8,Van,3,High,Clear,59.0,Delayed,78.12
+ORD0338,2026-03-02,12.8,Van,6,Medium,Cloudy,66.0,Delayed,105.07
+ORD0339,2026-03-02,32.6,Bike,4,Medium,Clear,92.0,On Time,132.08
+ORD0340,2026-03-02,9.0,Bike,9,Medium,Clear,56.0,On Time,78.54
+ORD0341,2026-03-02,14.0,Bike,3,Low,Clear,41.0,On Time,74.91
+ORD0342,2026-03-02,16.0,Bike,4,Medium,Clear,51.0,On Time,97.12
+ORD0343,2026-03-02,16.2,Bike,7,Low,Rainy,61.0,On Time,100.06
+ORD0344,2026-03-03,22.0,Bike,7,High,Cloudy,87.0,On Time,115.74
+ORD0345,2026-03-03,33.1,Bike,4,Low,Cloudy,95.0,On Time,144.06
+ORD0346,2026-03-03,9.6,Van,6,Medium,Clear,58.0,Delayed,106.39
+ORD0347,2026-03-03,5.6,Van,3,Low,Clear,35.0,On Time,79.98
+ORD0348,2026-03-03,8.1,Bike,6,High,Clear,66.0,Delayed,68.92
+ORD0349,2026-03-04,31.2,Bike,2,Medium,Rainy,114.0,Delayed,123.96
+ORD0350,2026-03-04,23.1,Van,8,Medium,Clear,85.0,On Time,175.77
+ORD0351,2026-03-04,11.1,Bike,2,Low,Rainy,56.0,Delayed,58.9
+ORD0352,2026-03-04,28.8,Van,7,Medium,Cloudy,94.0,On Time,175.82
+ORD0353,2026-03-04,30.4,Van,9,Low,Clear,106.0,Delayed,179.17
+ORD0354,2026-03-04,29.9,Bike,1,High,Cloudy,98.0,Delayed,126.41
+ORD0355,2026-03-05,32.3,Bike,8,Low,Clear,88.0,On Time,149.27
+ORD0356,2026-03-05,10.0,Van,7,Low,Rainy,59.0,Delayed,107.09
+ORD0357,2026-03-05,26.8,Bike,6,Low,Rainy,81.0,On Time,115.33
+ORD0358,2026-03-05,16.9,Van,6,Medium,Clear,73.0,Delayed,134.28
+ORD0359,2026-03-05,29.7,Truck,6,Medium,Clear,108.0,Delayed,228.66
+ORD0360,2026-03-06,25.9,Van,9,Low,Cloudy,90.0,Delayed,170.21
+ORD0361,2026-03-06,27.5,Bike,2,High,Rainy,101.0,Delayed,123.59
+ORD0362,2026-03-06,23.5,Van,1,Medium,Clear,94.0,Delayed,143.07
+ORD0363,2026-03-06,7.4,Bike,6,Medium,Cloudy,55.0,Delayed,65.67
+ORD0364,2026-03-06,19.8,Bike,10,Medium,Cloudy,102.0,Delayed,118.16
+ORD0365,2026-03-06,34.5,Truck,8,Medium,Cloudy,119.0,Delayed,265.07
+ORD0366,2026-03-07,32.9,Bike,3,Medium,Clear,104.0,Delayed,135.73
+ORD0367,2026-03-07,2.9,Truck,10,Low,Cloudy,55.0,Delayed,108.5
+ORD0368,2026-03-07,7.0,Truck,1,Low,Rainy,52.0,Delayed,108.77
+ORD0369,2026-03-07,5.9,Bike,9,High,Clear,71.0,Delayed,61.01
+ORD0370,2026-03-07,25.8,Bike,1,High,Clear,90.0,Delayed,116.04
+ORD0371,2026-03-07,28.9,Bike,3,Medium,Rainy,100.0,Delayed,126.71
+ORD0372,2026-03-08,8.7,Bike,8,Low,Clear,18.0,On Time,73.29
+ORD0373,2026-03-08,18.4,Bike,3,Medium,Rainy,83.0,Delayed,98.53
+ORD0374,2026-03-08,29.7,Van,4,Medium,Clear,88.0,On Time,173.08
+ORD0375,2026-03-08,26.0,Bike,8,Low,Clear,75.0,On Time,127.11
+ORD0376,2026-03-08,19.7,Bike,1,Low,Rainy,63.0,On Time,87.63
+ORD0377,2026-03-09,,Van,6,Medium,Clear,80.0,Delayed,147.26
+ORD0378,2026-03-09,18.5,Bike,1,Medium,Clear,66.0,On Time,88.55
+ORD0379,2026-03-09,11.5,Van,1,Low,Clear,44.0,On Time,89.5
+ORD0380,2026-03-09,20.4,Bike,8,Low,Cloudy,77.0,Delayed,109.21
+ORD0381,2026-03-09,24.6,Bike,4,Low,Clear,79.0,On Time,109.76
+ORD0382,2026-03-09,30.8,Van,1,Medium,Clear,93.0,Delayed,166.47
+ORD0383,2026-03-10,22.8,Van,10,Low,Rainy,92.0,Delayed,150.82
+ORD0384,2026-03-10,27.0,Van,7,Low,Clear,93.0,Delayed,169.11
+ORD0385,2026-03-10,6.9,Van,5,High,Cloudy,76.0,Delayed,74.89
+ORD0386,2026-03-10,17.0,Van,5,Low,Clear,67.0,Delayed,122.72
+ORD0387,2026-03-10,1.8,Bike,1,Medium,Cloudy,26.0,On Time,29.58
+ORD0388,2026-03-11,9.8,Bike,10,Low,Clear,50.0,On Time,87.67
+ORD0389,2026-03-11,25.8,Van,6,Low,Rainy,97.0,Delayed,157.11
+ORD0390,2026-03-11,34.7,Van,9,Low,Clear,113.0,Delayed,201.73
+ORD0391,2026-03-11,4.8,Truck,9,Medium,Clear,53.0,Delayed,114.21
+ORD0392,2026-03-11,15.0,Bike,8,High,Clear,68.0,On Time,89.52
+ORD0393,2026-03-11,28.3,Bike,5,High,Clear,109.0,Delayed,136.28
+ORD0394,2026-03-12,8.3,Van,1,Medium,Clear,29.0,On Time,73.87
+ORD0395,2026-03-12,20.1,Bike,9,Medium,Clear,73.0,On Time,109.54
+ORD0396,2026-03-12,26.1,Truck,1,Low,Cloudy,79.0,Delayed,204.99
+ORD0397,2026-03-12,22.1,Van,8,Low,Clear,70.0,On Time,158.69
+ORD0398,2026-03-12,7.8,Bike,5,High,Clear,55.0,On Time,60.18
+ORD0399,2026-03-12,13.4,Van,3,Low,Cloudy,65.0,Delayed,94.59
+ORD0400,2026-03-13,27.8,Van,7,Low,Cloudy,98.0,Delayed,172.8
+ORD0401,2026-03-13,20.1,Bike,7,Low,Clear,63.0,On Time,114.93
+ORD0402,2026-03-13,1.7,Truck,9,Low,Clear,48.0,Delayed,102.69
+ORD0403,2026-03-13,27.0,Bike,7,Low,Clear,72.0,On Time,130.32
+ORD0404,2026-03-13,2.7,Van,3,Medium,Cloudy,35.0,On Time,56.92
+ORD0405,2026-03-14,26.5,Bike,1,Medium,Cloudy,91.0,Delayed,105.31
+ORD0406,2026-03-14,8.3,Van,8,High,Clear,75.0,Delayed,98.31
+ORD0407,2026-03-14,33.6,Bike,3,High,Cloudy,114.0,Delayed,131.46
+ORD0408,2026-03-14,13.8,Bike,8,Medium,Cloudy,60.0,On Time,93.85
+ORD0409,2026-03-14,12.5,Truck,8,Low,Cloudy,77.0,Delayed,147.42
+ORD0410,2026-03-14,6.5,Bike,5,Medium,Rainy,45.0,On Time,58.15
+ORD0411,2026-03-15,11.7,Bike,1,Medium,Clear,44.0,On Time,53.63
+ORD0412,2026-03-15,30.9,Truck,10,Low,Clear,106.0,Delayed,247.14
+ORD0413,2026-03-15,34.9,Truck,7,Medium,Clear,131.0,Delayed,254.88
+ORD0414,2026-03-15,13.8,Van,10,Medium,Clear,74.0,Delayed,111.27
+ORD0415,2026-03-15,16.5,Van,5,Medium,Clear,74.0,Delayed,126.75
+ORD0416,2026-03-16,25.7,Bike,8,Medium,Rainy,98.0,Delayed,137.09
+ORD0417,2026-03-16,31.2,Bike,9,Low,Clear,96.0,On Time,154.12
+ORD0418,2026-03-16,21.4,Bike,7,High,Clear,93.0,Delayed,115.07
+ORD0419,2026-03-16,14.6,Van,7,High,Clear,72.0,On Time,118.42
+ORD0420,2026-03-16,15.3,Van,1,Low,Rainy,72.0,Delayed,113.54
+ORD0421,2026-03-16,24.8,Van,4,High,Clear,108.0,Delayed,161.54
+ORD0422,2026-03-17,1.6,Van,2,Medium,Clear,40.0,Delayed,57.22
+ORD0423,2026-03-17,22.3,Bike,2,High,Clear,87.0,Delayed,94.25
+ORD0424,2026-03-17,13.4,Bike,2,High,Clear,61.0,On Time,69.88
+ORD0425,2026-03-17,,Bike,4,Medium,Rainy,86.0,On Time,135.14
+ORD0426,2026-03-17,4.6,Bike,1,Low,Rainy,38.0,Delayed,41.77
+ORD0427,2026-03-17,21.2,Bike,4,Low,Clear,71.0,On Time,82.89
+ORD0428,2026-03-18,17.6,Van,2,Medium,Rainy,90.0,Delayed,111.59
+ORD0429,2026-03-18,23.0,Bike,5,Medium,Cloudy,89.0,Delayed,108.55
+ORD0430,2026-03-18,3.7,Bike,3,Low,Rainy,38.0,Delayed,50.55
+ORD0431,2026-03-18,20.9,Bike,8,Low,Clear,76.0,On Time,110.24
+ORD0432,2026-03-18,20.3,Van,4,High,Clear,98.0,Delayed,142.53
+ORD0433,2026-03-19,20.3,Van,1,High,Clear,,Delayed,125.54
+ORD0434,2026-03-19,21.7,Bike,1,Medium,Cloudy,80.0,Delayed,85.15
+ORD0435,2026-03-19,24.2,Bike,10,Low,Clear,74.0,On Time,124.49
+ORD0436,2026-03-19,28.5,Van,3,Low,Clear,87.0,Delayed,168.57
+ORD0437,2026-03-19,10.5,Bike,9,Low,Clear,38.0,On Time,82.67
+ORD0438,2026-03-19,29.1,Van,7,High,Cloudy,111.0,Delayed,171.37
+ORD0439,2026-03-20,18.2,Van,2,Low,Clear,67.0,Delayed,120.69
+ORD0440,2026-03-20,4.1,Bike,9,Medium,Cloudy,55.0,Delayed,76.73
+ORD0441,2026-03-20,3.5,Bike,10,Low,Rainy,52.0,Delayed,53.8
+ORD0442,2026-03-20,12.7,Truck,2,Medium,Clear,65.0,Delayed,142.46
+ORD0443,2026-03-20,27.8,Bike,3,Medium,Cloudy,74.0,On Time,108.88
+ORD0444,2026-03-21,25.2,Bike,10,High,Clear,104.0,Delayed,135.82
+ORD0445,2026-03-21,27.9,Van,2,Low,Rainy,98.0,Delayed,156.25
+ORD0446,2026-03-21,18.8,Truck,3,Low,Clear,65.0,On Time,173.91
+ORD0447,2026-03-21,16.2,Truck,6,Low,Cloudy,67.0,Delayed,158.25
+ORD0448,2026-03-21,6.4,Van,9,High,Cloudy,83.0,Delayed,94.85
+ORD0449,2026-03-21,12.5,Bike,9,High,Rainy,89.0,Delayed,82.05
+ORD0450,2026-03-22,16.0,Bike,7,Medium,Cloudy,74.0,Delayed,89.41
+ORD0451,2026-03-22,4.5,Van,3,Medium,Clear,47.0,Delayed,73.15
+ORD0452,2026-03-22,8.9,Van,4,Medium,Cloudy,51.0,On Time,88.02
+ORD0453,2026-03-22,21.5,Bike,6,Low,Rainy,82.0,Delayed,111.08
+ORD0454,2026-03-22,26.1,Truck,5,High,Cloudy,125.0,Delayed,211.85
+ORD0455,2026-03-22,34.9,Bike,2,Medium,Clear,113.0,Delayed,142.08
+ORD0456,2026-03-23,32.8,Bike,6,Medium,Rainy,115.0,Delayed,147.63
+ORD0457,2026-03-23,23.0,Bike,3,Medium,Cloudy,79.0,On Time,104.0
+ORD0458,2026-03-23,15.6,Bike,8,Low,Cloudy,64.0,On Time,88.94
+ORD0459,2026-03-23,22.8,Bike,2,Low,Clear,66.0,On Time,99.77
+ORD0460,2026-03-23,27.8,Bike,1,Medium,Cloudy,98.0,Delayed,123.63
+ORD0461,2026-03-24,5.5,Bike,9,Low,Clear,29.0,On Time,65.8
+ORD0462,2026-03-24,15.2,Van,3,Medium,Cloudy,68.0,Delayed,108.23
+ORD0463,2026-03-24,29.6,Van,1,Low,Clear,75.0,On Time,168.31
+ORD0464,2026-03-24,14.4,Van,7,Medium,Cloudy,67.0,Delayed,122.91
+ORD0465,2026-03-24,20.7,Truck,10,Low,Rainy,99.0,Delayed,201.62
+ORD0466,2026-03-24,21.2,Bike,5,Medium,Clear,80.0,Delayed,99.47
+ORD0467,2026-03-25,7.7,Bike,5,Medium,Rainy,55.0,Delayed,58.05
+ORD0468,2026-03-25,13.6,Van,1,Low,Clear,54.0,Delayed,97.84
+ORD0469,2026-03-25,12.7,Bike,9,Medium,Rainy,84.0,Delayed,85.98
+ORD0470,2026-03-25,2.4,Truck,7,Medium,Cloudy,68.0,Delayed,102.73
+ORD0471,2026-03-25,2.3,Bike,8,Medium,Cloudy,44.0,Delayed,54.14
+ORD0472,2026-03-26,29.4,Truck,9,High,Cloudy,124.0,Delayed,241.75
+ORD0473,2026-03-26,10.6,Bike,6,Medium,Rainy,60.0,Delayed,82.04
+ORD0474,2026-03-26,18.9,Van,5,Low,Clear,58.0,On Time,137.23
+ORD0475,2026-03-26,11.5,Bike,6,Low,Clear,54.0,On Time,75.95
+ORD0476,2026-03-26,33.0,Truck,2,Low,Cloudy,92.0,On Time,232.9
+ORD0477,2026-03-26,10.2,Bike,4,Medium,Cloudy,63.0,Delayed,63.35
+ORD0478,2026-03-27,15.9,Van,3,Low,Cloudy,55.0,On Time,114.53
+ORD0479,2026-03-27,30.7,Truck,7,Medium,Cloudy,110.0,Delayed,245.97
+ORD0480,2026-03-27,29.7,Bike,9,Medium,Clear,97.0,On Time,142.38
+ORD0481,2026-03-27,7.7,Van,5,Medium,Cloudy,52.0,Delayed,84.36
+ORD0482,2026-03-27,28.4,Van,6,High,Clear,118.0,Delayed,169.2
+ORD0483,2026-03-27,16.8,Bike,10,Low,Clear,75.0,Delayed,103.34
+ORD0484,2026-03-28,17.7,Van,2,Low,Clear,54.0,On Time,126.14
+ORD0485,2026-03-28,6.0,Van,3,Medium,Clear,42.0,On Time,86.05
+ORD0486,2026-03-28,4.2,Truck,3,Medium,Clear,46.0,Delayed,97.27
+ORD0487,2026-03-28,25.9,Bike,9,Medium,Clear,94.0,Delayed,130.11
+ORD0488,2026-03-28,18.1,Bike,7,Medium,Cloudy,75.0,Delayed,93.14
+ORD0489,2026-03-29,16.1,Truck,8,Low,Clear,80.0,Delayed,182.14
+ORD0490,2026-03-29,25.9,Van,10,High,Clear,120.0,Delayed,165.19
+ORD0491,2026-03-29,27.1,Bike,9,High,Clear,99.0,On Time,141.25
+ORD0492,2026-03-29,,Van,6,Medium,Clear,55.0,Delayed,85.01
+ORD0493,2026-03-29,21.9,Bike,4,Low,Clear,75.0,Delayed,101.48
+ORD0494,2026-03-29,6.0,Bike,1,Medium,Clear,33.0,On Time,40.04
+ORD0495,2026-03-30,26.7,Bike,8,Medium,Cloudy,94.0,Delayed,144.9
+ORD0496,2026-03-30,23.5,Bike,7,Low,Cloudy,74.0,On Time,119.03
+ORD0497,2026-03-30,33.5,Van,2,High,Cloudy,118.0,Delayed,184.13
+ORD0498,2026-03-30,3.8,Bike,8,Low,Clear,20.0,On Time,62.48
+ORD0499,2026-03-30,3.4,Truck,5,High,Clear,53.0,Delayed,95.6
+ORD0500,2026-03-31,11.0,Truck,7,Medium,Rainy,82.0,Delayed,142.51
+ORD0011,2026-01-02,28.7,Bike,4,Medium,Clear,78.0,On Time,132.53
+ORD0026,2026-01-05,10.1,Van,8,Medium,Clear,63.0,Delayed,96.18
+ORD0101,2026-01-18,7.9,Bike,8,Low,Clear,36.0,On Time,73.54
